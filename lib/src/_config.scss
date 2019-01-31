@@ -4,20 +4,24 @@ $prefix: 'bp' !default; // prefix layout attibute
 // Grid Variables
 $container-width: 1000px !default;
 $gutter: 16px !default;
-$cols: 12 !default;
+$cols: 36 !default;
 
 // Breakpoint Variables
 $no-break: 0 !default;
 $sm-break: 480px !default;
 $md-break: 720px !default;
 $lg-break: 960px !default;
-$xl-break: 1440px !default;
+$xl-break: 1280px !default;
+$re-break: 1600px !default;
+$r2-break: 2200px !default;
 
 // Spacing Variables
 $xs-spacing: 4px !default;
 $sm-spacing: 8px !default;
 $md-spacing: 16px !default;
 $lg-spacing: 24px !default;
+$xl-spacing: 28px !default;
+$re-spacing: 32px !default;
 
 // Size Suffixes
 $xs-suffix: '--xs' !default;
