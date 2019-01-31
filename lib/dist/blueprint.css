@@ -17,7 +17,7 @@ html {
 
 [bp~='grid'] {
   display: grid !important;
-  grid-gap: 6px;
+  grid-gap: 10px;
   grid-template-columns: repeat(24, 1fr); }
 
 [bp~='vertical-start'] {
