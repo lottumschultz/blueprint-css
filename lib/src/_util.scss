@@ -77,3 +77,11 @@
 @media (max-width: $xl-break) {
   @include full-width-generator('xl');
 }
+
+@media (max-width: $r1-break) {
+  @include full-width-generator('r1');
+}
+
+@media (max-width: $r2-break) {
+  @include full-width-generator('r2');
+}
