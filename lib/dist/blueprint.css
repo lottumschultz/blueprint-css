@@ -280,7 +280,7 @@ html {
 [bp~='offset-24'] {
   grid-column-start: 24; }
 
-@media (min-width: 480px) {
+@media (min-width: 540px) {
   [bp~='grid'][bp~='1@sm'] {
     grid-template-columns: repeat(24, 1fr); }
   [bp~='1@sm'] {
@@ -588,7 +588,7 @@ html {
   [bp~='last@md'] {
     order: 24; } }
 
-@media (min-width: 960px) {
+@media (min-width: 900px) {
   [bp~='grid'][bp~='1@lg'] {
     grid-template-columns: repeat(24, 1fr); }
   [bp~='1@lg'] {
@@ -1050,7 +1050,7 @@ html {
   [bp~='last@r1'] {
     order: 24; } }
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
   [bp~='grid'][bp~='1@r2'] {
     grid-template-columns: repeat(24, 1fr); }
   [bp~='1@r2'] {
@@ -1316,7 +1316,7 @@ html {
 [bp~='full-width'] {
   width: 100%; }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   [bp~='full-width-until@sm'] {
     width: 100% !important;
     max-width: 100% !important; } }
@@ -1326,7 +1326,7 @@ html {
     width: 100% !important;
     max-width: 100% !important; } }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   [bp~='full-width-until@lg'] {
     width: 100% !important;
     max-width: 100% !important; } }
@@ -1341,7 +1341,7 @@ html {
     width: 100% !important;
     max-width: 100% !important; } }
 
-@media (max-width: 2000px) {
+@media (max-width: 1600px) {
   [bp~='full-width-until@r2'] {
     width: 100% !important;
     max-width: 100% !important; } }
